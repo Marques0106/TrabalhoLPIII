@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telaPerguntas">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Iniciar Jogo"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/buttonSobre2"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sobre"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <Button
+        android:id="@+id/buttonSair2"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sair"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/buttonComoJogar2"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Como Jogar"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textQuiz2"
+        android:layout_width="220dp"
+        android:layout_height="114dp"
+        android:fontFamily="@font/adlery_pro_blockletter"
+        android:rotation="-12"
+        android:text="QUIZ"
+        android:textColor="#ff3f00"
+        android:textSize="85sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/textQueimaduras2"
+        android:layout_width="299dp"
+        android:layout_height="84dp"
+        android:fontFamily="sans-serif-light"
+        android:rotation="-12"
+        android:text="Queimaduras"
+        android:textColor="#ff7f11"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
+</androidx.constraintlayout.widget.ConstraintLayout>

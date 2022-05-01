@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10002B"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/background"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textQuiz"
+        android:layout_width="220dp"
+        android:layout_height="114dp"
+        android:fontFamily="@font/adlery_pro_blockletter"
+        android:rotation="-12"
+        android:text="QUIZ"
+        android:textColor="#F8F8F8"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/textQueimaduras"
+        android:layout_width="238dp"
+        android:layout_height="85dp"
+        android:fontFamily="sans-serif-light"
+        android:rotation="-12"
+        android:text="Queimaduras"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="87dp"
+        android:layout_height="175dp"
+        android:rotation="-12"
+        app:layout_constraintEnd_toStartOf="@+id/textQuiz"
+        app:srcCompat="@drawable/hashtag"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <TextView
+        android:id="@+id/textUnisagrado"
+        android:layout_width="227dp"
+        android:layout_height="57dp"
+        android:fontFamily="sans-serif-light"
+        android:text="UNISAGRADO   "
+        android:textAlignment="center"
+        android:textColor="#9A8C98"
+        android:textSize="15SP"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <TextView
+        android:id="@+id/textAnaviq"
+        android:layout_width="227dp"
+        android:layout_height="57dp"
+        android:fontFamily="sans-serif-light"
+        android:text="ANAVIQ   "
+        android:textAlignment="center"
+        android:textColor="#9A8C98"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textUnisagrado"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <Button
+        android:id="@+id/buttonIniciarJogo"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Iniciar Jogo"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/buttonSobre"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sobre"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <Button
+        android:id="@+id/buttonSair"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sair"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/buttonComoJogar"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Como Jogar"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

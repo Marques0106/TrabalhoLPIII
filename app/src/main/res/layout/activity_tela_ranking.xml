@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10002B"
+    android:backgroundTint="#10002B"
+    tools:context=".telaRanking">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Iniciar Jogo"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <Button
+        android:id="@+id/buttonSobre3"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sobre"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/buttonSair3"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sair"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <Button
+        android:id="@+id/buttonComoJogar3"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#9A8C98"
+        android:fontFamily="sans-serif-medium"
+        android:text="Como Jogar"
+        android:textColor="#10002B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="251dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#9A8C98"
+        android:text="Voltar ao Menu"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <TextView
+        android:id="@+id/textRanking"
+        android:layout_width="107dp"
+        android:layout_height="47dp"
+        android:text="Ranking"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
